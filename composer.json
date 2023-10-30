@@ -3,7 +3,7 @@
     "description": "Project template for Drupal projects with a relocated document root",
     "type": "project",
     "repositories": {
-        "njim/awesome": {
+        "njim/blaster": {
           "type": "path",
           "url": "web/recipes/custom/blaster"
         },
