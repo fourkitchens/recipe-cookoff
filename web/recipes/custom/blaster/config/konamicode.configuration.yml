@@ -1,0 +1,47 @@
+konamicode_enabled: 1
+konamicode_redirect_destination: 'https://youtu.be/dQw4w9WgXcQ'
+konamicode_redirect_enabled: 0
+konamicode_redirect_keycode_sequence: '38,38,40,40,37,39,37,39,66,65'
+konamicode_alert_message: 'Konami Code Is Geek'
+konamicode_alert_enabled: 0
+konamicode_alert_keycode_sequence: '38,38,40,40,37,39,37,39,66,65'
+konamicode_raptorize_delay: '50'
+konamicode_raptorize_enabled: 0
+konamicode_raptorize_keycode_sequence: '38,38,40,40,37,39,37,39,66,65'
+konamicode_flip_text_enabled: 0
+konamicode_flip_text_keycode_sequence: '38,38,40,40,37,39,37,39,66,65'
+konamicode_image_spawn_images: /libraries/image_spawn/assets/images/druplicon-small.png
+konamicode_image_spawn_amount: '500'
+konamicode_image_spawn_delay: '10'
+konamicode_image_spawn_enabled: 0
+konamicode_image_spawn_keycode_sequence: '38,38,40,40,37,39,37,39,66,65'
+konamicode_replace_images_integrations:
+  kitten: kitten
+  baby: 0
+  bacon: 0
+  bear: 0
+  beer: 0
+  cage: 0
+  geese: 0
+  picsum: 0
+  pixel: 0
+konamicode_replace_images_enabled: 0
+konamicode_replace_images_keycode_sequence: '38,38,40,40,37,39,37,39,66,65'
+konamicode_snowfall_flake_count: '35'
+konamicode_snowfall_flake_color: '#ffffff'
+konamicode_snowfall_flake_position: absolute
+konamicode_snowfall_flake_index: '99999'
+konamicode_snowfall_flake_min_size: '1'
+konamicode_snowfall_flake_max_size: '2'
+konamicode_snowfall_flake_min_speed: '1'
+konamicode_snowfall_flake_max_speed: '5'
+konamicode_snowfall_flake_round: 1
+konamicode_snowfall_flake_shadow: 1
+konamicode_snowfall_flake_collection: ''
+konamicode_snowfall_flake_collection_height: '40'
+konamicode_snowfall_flake_device_orientation: 0
+konamicode_snowfall_flake_use_image: 0
+konamicode_snowfall_enabled: 0
+konamicode_snowfall_keycode_sequence: '38,38,40,40,37,39,37,39,66,65'
+konamicode_asteroids_enabled: 1
+konamicode_asteroids_keycode_sequence: '38,38,40,40,37,39,37,39,66,65'

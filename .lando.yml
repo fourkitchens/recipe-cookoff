@@ -1,0 +1,8 @@
+name: recipe-demo
+recipe: drupal10
+config:
+  webroot: web
+proxy:
+  edge:
+    - hostname: local.recipes
+

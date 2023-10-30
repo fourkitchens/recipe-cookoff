@@ -1,0 +1,82 @@
+{
+    "name": "drupal/recommended-project",
+    "description": "Project template for Drupal projects with a relocated document root",
+    "type": "project",
+    "repositories": {
+        "njim/awesome": {
+          "type": "path",
+          "url": "web/recipes/custom/blaster"
+        },
+        "njim/timeconsuming": {
+            "type": "path",
+            "url": "web/recipes/custom/timeconsuming"
+          },
+        "drupal": {
+          "type": "composer",
+          "url": "https://packages.drupal.org/8"
+        }
+      },
+    "require": {
+        "composer/installers": "^2.0",
+        "cweagans/composer-patches": "^1.7",
+        "drupal/core-composer-scaffold": "^10.0",
+        "drupal/core-project-message": "^10.0",
+        "drupal/core-recommended": "^10.0",
+        "drush/drush": "^12.4",
+        "njim/blaster": "*",
+        "njim/timeconsuming": "*",
+        "oomphinc/composer-installers-extender": "2.0.1"
+    },
+    "require-dev": {
+        "drupal/core-dev": "^10.0"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true,
+            "phpstan/extension-installer": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "oomphinc/composer-installers-extender": true,
+            "cweagans/composer-patches": true
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "web/"
+            }
+        },
+        "installer-types": ["drupal-recipe"],
+        "installer-paths": {
+            "web/core": ["type:drupal-core"],
+            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
+            "web/modules/custom/{$name}": ["type:drupal-custom-module"],
+            "web/profiles/custom/{$name}": ["type:drupal-custom-profile"],
+            "web/themes/custom/{$name}": ["type:drupal-custom-theme"],
+            "web/recipes/contrib/{$name}": ["type:drupal-recipe"],
+            "web/recipes/custom/{$name}": ["type:drupal-custom-recipe"]
+        },
+        "enable-patching": true,
+        "composer-exit-on-patch-failure": true,
+        "patchLevel": {
+            "drupal/core": "-p2"
+        },
+        "patches": {
+            "drupal/core": {
+                "Allow application of recipes": "https://git.drupalcode.org/project/distributions_recipes/-/raw/patch/recipe.patch",
+                "#3322547: Set a default message when extensions are missing": "https://git.drupalcode.org/project/distributions_recipes/-/merge_requests/45.patch"
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "njim/blaster",
+  "description": "An example recipe that installs and configures a module.",
+  "type": "drupal-custom-recipe",
+  "require": {
+      "drupal/konamicode": "^2.0"
+  }
+}
