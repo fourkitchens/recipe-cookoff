@@ -16,7 +16,7 @@ All Webchefs are invited to participate in the Cookoff and submit your own Drupa
 
 * **Hands-on Experience**: Gain practical experience with the latest technology in the Drupal world. Recipes are the future, and this is your chance to get ahead of the curve.
 
-* **Sales Potential**: As we create valuable Recipes for different marketing verticals, you'll have the chance to explore new sales opportunities for your skills and expertise.
+* **Sales Potential**: Recipes can align with different marketing verticals. This work will help our team think through how features are packaged and delivered as part of a larger product mindset.
 
 * **Open Source Contribution**: Embrace the spirit of open source by sharing your Recipes with the community. Your contributions can help others while establishing your reputation as a leader in the Drupal space.
 
