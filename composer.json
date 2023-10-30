@@ -10,7 +10,7 @@
         "njim/timeconsuming": {
             "type": "path",
             "url": "web/recipes/custom/timeconsuming"
-          },
+        },
         "drupal": {
           "type": "composer",
           "url": "https://packages.drupal.org/8"

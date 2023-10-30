@@ -1,5 +1,5 @@
 {
   "name": "njim/timeconsuming",
   "description": "An example recipe that load a reusable set of configs.",
-  "type": "drupal-custom-recipe",
+  "type": "drupal-custom-recipe"
 }
