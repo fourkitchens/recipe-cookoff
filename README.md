@@ -1,14 +1,10 @@
 # Four Kitchens Drupal Recipes Cookoff
 
-Welcome to the Four Kitchens Drupal Recipes Cookoff, where we're blending the world of coding with the excitement of a culinary competition! While there's no actual food involved, we're cooking up something special in the Drupal community. We introduce you to a cutting-edge concept: ~Recipes~. Just like a great chef follows a recipe to create a delightful dish, our engineers are creating Recipes to organize and share code for Drupal features and configurations.
-
-## What Are Drupal Recipes?
-
-Recipes are a remarkable way to structure and package code, making it easier to add new features to your website. Just as a well-crafted recipe guides you through the process of creating a delicious meal, a Drupal Recipe helps you set up a new feature or configuration on your website. It's all about making your Drupal experience tastier, simpler, and more efficient.
+Welcome to the Four Kitchens Drupal Recipes Cookoff, where we're blending the world of coding with the excitement of a culinary competition! While there's no actual food involved, we're cooking up something special in the Drupal community. We introduce you to a cutting-edge concept: _Recipes_. Just like a great chef follows a recipe to create a delightful dish, our engineers are creating Recipes to organize and share code for Drupal features and configurations.
 
 ## Join the Drupal Recipes Cookoff
 
-We invite you to participate in the Cookoff and submit your own Drupal Recipes in one of the following categories:
+All Webchefs are invited to participate in the Cookoff and submit your own Drupal Recipes in one of the following categories:
 
 1. Appetizers: Start small by submitting a basic module setup or a set of essential configurations. For example, you can create Recipes for date or WYSIWYG formatters, or set up the Gin theme and admin toolbar.
 
