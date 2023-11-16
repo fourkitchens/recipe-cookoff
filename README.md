@@ -31,7 +31,7 @@ git clone https://github.com/fourkitchens/recipe-cookoff
 # Install a site from the existing configuration as a common starting place.
 lando start
 lando composer install
-lando drush si --existing-config
+lando drush site:install --existing-config --db-url=mysql://drupal10:drupal10@database/drupal10 -y
 
 # See a recipe in action.
 cd web
